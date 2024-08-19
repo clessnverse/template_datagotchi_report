@@ -1,0 +1,62 @@
+---
+title: A Sample Title - The SocioEconomic Aspects of Stock Assessments
+subtitle: with non-English diacritics in the author names. See documentation.
+author:
+  - name: Hubert "Boule" Cadieux
+    affiliations:
+      - name: Minnesota Department of Natural Resources
+        address: 500 Lafayette Road Saint Paul, MN 55155
+      - name: University of Minnesota
+        department: Department of Mathematics
+date: today
+bibliography: references.bib
+format: 
+  titlepage-pdf:
+    coverpage-title: "Datagotchi"
+    coverpage-footer: "Obese Men Drink More Sprite"
+    documentclass: scrreprt
+    classoption: ["oneside", "open=any"]
+    titlepage: false
+    coverpage: great-wave
+    coverpage-bg-image: "img/election.png"
+    coverpage-theme:
+      page-html-color: "FFFFFF"
+      title-fontfamily: "PixelOperatorSC.ttf"
+      title-fontsize: 80
+      title-align: "center"
+      title-bottom: "10in"
+      header-style: "none"
+      author-style: "plain"
+      author-bottom: "4in"
+      author-align: "center"
+      author-fontsize: 18
+      author-fontfamily: "PixelOperatorSC.ttf"
+      footer-fontsize: 60
+      footer-fontfamily: "PixelOperatorSC.ttf"
+      footer-align: "center"
+      footer-bottom: "7in"
+      date-style: "plain"
+      date-fontfamily: "PixelOperatorSC.ttf"
+      date-fontsize: 14
+      date-align: "center"
+      date-bottom: "3.8in"
+      bg-image-fading: "north"
+    keep-tex: true
+include-in-header:
+  text: |
+    \newfontfamily\sectionfont{PixelOperatorSC.ttf}
+    \newfontfamily\subsectionfont{PixelOperatorSC.ttf}
+    \newfontfamily\subsubsectionfont{PixelOperatorSC.ttf}
+    \addtokomafont{section}{\sectionfont}
+    \addtokomafont{subsection}{\subsectionfont}
+    \addtokomafont{subsubsection}{\subsubsectionfont}
+---
+
+## Description
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit. @knuth84 and all things LaTeX. Phasellus neque ex, vehicula dictum risus fermentum, feugiat faucibus neque. Etiam purus quam, lacinia vel porta in, malesuada ac nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed bibendum placerat tellus, ac finibus lectus euismod eget. Nulla mattis diam vitae bibendum consequat. Etiam vitae eros tristique, porta sapien a, aliquet mauris. Praesent ultricies mi nulla, et dignissim nulla mattis at. Fusce rhoncus leo quis odio euismod, hendrerit facilisis risus tincidunt. Aenean at lectus justo. Cras fringilla lacus nisl, ac convallis odio tincidunt vel. Integer vel egestas nisi. Curabitur vitae imperdiet justo.
+
+## References
+
+::: {#refs}
+:::
