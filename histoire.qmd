@@ -1,19 +1,11 @@
 ---
-title: A Sample Title - The SocioEconomic Aspects of Stock Assessments
-subtitle: with non-English diacritics in the author names. See documentation.
-author:
-  - name: Hubert "Boule" Cadieux
-    affiliations:
-      - name: Minnesota Department of Natural Resources
-        address: 500 Lafayette Road Saint Paul, MN 55155
-      - name: University of Minnesota
-        department: Department of Mathematics
+title: Les Fratboys sont plus susceptibles de voter pour Donald Trump
+author: Hubert "Boule" Cadieux
 date: today
-bibliography: references.bib
 format: 
   titlepage-pdf:
     coverpage-title: "Datagotchi"
-    coverpage-footer: "Obese Men Drink More Sprite"
+    coverpage-footer: "Fratboys: Plus redneck que les rednecks"
     documentclass: scrreprt
     classoption: ["oneside", "open=any"]
     titlepage: false
@@ -31,7 +23,7 @@ format:
       author-align: "center"
       author-fontsize: 18
       author-fontfamily: "PixelOperatorSC.ttf"
-      footer-fontsize: 60
+      footer-fontsize: 50
       footer-fontfamily: "PixelOperatorSC.ttf"
       footer-align: "center"
       footer-bottom: "7in"
@@ -51,12 +43,10 @@ include-in-header:
     \addtokomafont{subsection}{\subsectionfont}
     \addtokomafont{subsubsection}{\subsubsectionfont}
 ---
-
+<!-- Utiliser les H2 ## et non les H1 # --> 
 ## Description
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. @knuth84 and all things LaTeX. Phasellus neque ex, vehicula dictum risus fermentum, feugiat faucibus neque. Etiam purus quam, lacinia vel porta in, malesuada ac nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed bibendum placerat tellus, ac finibus lectus euismod eget. Nulla mattis diam vitae bibendum consequat. Etiam vitae eros tristique, porta sapien a, aliquet mauris. Praesent ultricies mi nulla, et dignissim nulla mattis at. Fusce rhoncus leo quis odio euismod, hendrerit facilisis risus tincidunt. Aenean at lectus justo. Cras fringilla lacus nisl, ac convallis odio tincidunt vel. Integer vel egestas nisi. Curabitur vitae imperdiet justo.
+Les "Frat boys" montrent une adhésion encore plus forte à l'idéologie républicaine que les "Rednecks" eux-mêmes, avec une probabilité de 95 % d'être totalement républicains, dépassant ainsi les 94 % des "Rednecks". Ce paradoxe met en lumière une convergence inattendue entre ces deux identités, où les stéréotypes sont inversés.
 
-## References
+![fratboys](img/model_region_interaction.png)
 
-::: {#refs}
-:::
