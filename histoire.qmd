@@ -2,36 +2,42 @@
 title: Les Fratboys sont plus susceptibles de voter pour Donald Trump
 author: Hubert "Boule" Cadieux
 date: today
+mainfont: Roboto-Regular.ttf
 format: 
   titlepage-pdf:
     coverpage-title: "Datagotchi"
     coverpage-footer: "Fratboys: Plus redneck que les rednecks"
+    coverpage-header: "USA 2024"
     documentclass: scrreprt
     classoption: ["oneside", "open=any"]
     titlepage: false
     coverpage: great-wave
-    coverpage-bg-image: "img/election.png"
+    coverpage-bg-image: "img/kamala_trump_low.png"
     coverpage-theme:
       page-html-color: "FFFFFF"
       title-fontfamily: "PixelOperatorSC.ttf"
       title-fontsize: 80
       title-align: "center"
       title-bottom: "10in"
-      header-style: "none"
       author-style: "plain"
       author-bottom: "4in"
       author-align: "center"
       author-fontsize: 18
       author-fontfamily: "PixelOperatorSC.ttf"
-      footer-fontsize: 50
+      footer-fontsize: 42
       footer-fontfamily: "PixelOperatorSC.ttf"
       footer-align: "center"
+      header-style: "plain"
+      header-fontsize: 42
+      header-fontfamily: "PixelOperatorSC.ttf"
+      header-align: "center"
+      header-bottom: "9in"
       footer-bottom: "7in"
       date-style: "plain"
       date-fontfamily: "PixelOperatorSC.ttf"
       date-fontsize: 14
       date-align: "center"
-      date-bottom: "3.8in"
+      date-bottom: "3.7in"
       bg-image-fading: "north"
     keep-tex: true
 include-in-header:
@@ -42,7 +48,18 @@ include-in-header:
     \addtokomafont{section}{\sectionfont}
     \addtokomafont{subsection}{\subsectionfont}
     \addtokomafont{subsubsection}{\subsubsectionfont}
+    \usepackage{fontspec}
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhf{}  % Clears both the header and footer
+    \renewcommand{\headrulewidth}{0pt}  % Removes the horizontal line in the header
+    \newfontfamily\headerfont{PixelOperatorSC}
+    \fancyhead[L]{\headerfont CLESSN}
+    \fancyhead[C]{\headerfont Rapport présenté à Léger}
+    \fancyhead[R]{\headerfont Datagotchi USA 2024}
+    \fancyfoot[C]{\thepage}  % Centered page number in the footer
 ---
+
 <!-- Utiliser les H2 ## et non les H1 # --> 
 ## Description
 
