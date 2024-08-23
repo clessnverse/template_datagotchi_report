@@ -16,7 +16,7 @@ format:
     coverpage-theme:
       page-html-color: "FFFFFF"
       title-fontfamily: "PixelOperatorSC.ttf"
-      title-fontsize: 80
+      title-fontsize: 54
       title-align: "center"
       title-bottom: "10in"
       author-style: "plain"
@@ -24,11 +24,11 @@ format:
       author-align: "center"
       author-fontsize: 18
       author-fontfamily: "PixelOperatorSC.ttf"
-      footer-fontsize: 42
+      footer-fontsize: 38
       footer-fontfamily: "PixelOperatorSC.ttf"
       footer-align: "center"
       header-style: "plain"
-      header-fontsize: 42
+      header-fontsize: 28
       header-fontfamily: "PixelOperatorSC.ttf"
       header-align: "center"
       header-bottom: "9in"
