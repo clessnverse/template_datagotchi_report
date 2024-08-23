@@ -53,7 +53,7 @@ include-in-header:
     \pagestyle{fancy}
     \fancyhf{}  % Clears both the header and footer
     \renewcommand{\headrulewidth}{0pt}  % Removes the horizontal line in the header
-    \newfontfamily\headerfont{PixelOperatorSC}
+    \newfontfamily\headerfont{PixelOperatorSC.ttf}
     \fancyhead[L]{\headerfont CLESSN}
     \fancyhead[C]{\headerfont Rapport présenté à Léger}
     \fancyhead[R]{\headerfont Datagotchi USA 2024}
