@@ -44,19 +44,17 @@ include-in-header:
 
   \begin{center}
     \null\vspace{\stretch{1}} % Ensures vertical centering
-    {\titlepagefont\fontsize{24pt}{18pt}\selectfont \textbf{Datagotchi}}\\[1cm]
-    {\titlepagefont\fontsize{18pt}{18pt}\selectfont \textbf{Rapport USA 2024}}\\[1cm]
+    {\titlepagefont\fontsize{48pt}{18pt}\selectfont \textbf{Datagotchi}}\\[1cm]
+    {\titlepagefont\fontsize{32pt}{18pt}\selectfont \textbf{Rapport USA 2024}}\\[1cm]
     \includegraphics[width=0.2\textwidth]{img/datagotchi.png}\\[1cm]
-    {\titlepagefont\fontsize{18pt}{16pt}\selectfont \textbf{CLESSN}}\\[0.5cm]
-    {\titlepagefont Université Laval}\\[1cm]
-    {\titlepagefont Rapport présenté à:}\\
-    {\titlepagefont \textbf{Léger Marketing}}\\[1cm]
-    {\titlepagefont Département de Science Politique\\Faculté des Sciences Sociales\\Université Laval}\\[1cm]
-    {\titlepagefont Québec, Canada}\\[2cm]
-    {\titlepagefont \copyright \thinspace CLESSN, \today}\\
+    {\titlepagefont\fontsize{32pt}{16pt}\selectfont \textbf{CLESSN}}\\[0.5cm]
+    {\titlepagefont\fontsize{16pt}{14pt}\selectfont Rapport présenté à:}\\ % Smaller normal text size
+    {\titlepagefont\fontsize{24pt}{16pt}\selectfont \textbf{Léger Marketing}}\\[1cm]
+    {\titlepagefont\fontsize{16pt}{14pt}\selectfont Département de Science Politique\\Faculté des Sciences Sociales\\Université Laval}\\[1cm]
+    {\titlepagefont\fontsize{16pt}{14pt}\selectfont Québec, Canada}\\[2cm]
+    {\titlepagefont\fontsize{12pt}{12pt}\selectfont \copyright \thinspace CLESSN, \today}\\
     \null\vspace{\stretch{2}} % Ensures vertical centering
-  \end{center}
-  \thispagestyle{empty} % Prevents headers and footers on the title page
+  \end{center}  \thispagestyle{empty} % Prevents headers and footers on the title page
   \clearpage % Ensures the next content starts on a clean page
 \end{titlepage}
 \backgroundsetup{contents={}}
