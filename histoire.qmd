@@ -59,8 +59,9 @@ include-in-header:
   \thispagestyle{empty} % Prevents headers and footers on the title page
   \clearpage % Ensures the next content starts on a clean page
 \end{titlepage}
+\backgroundsetup{contents={}}
 
-\NoBgThispage
+\setcounter{page}{1}
 
 # Description
 
