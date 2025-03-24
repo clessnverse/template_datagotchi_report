@@ -38,19 +38,19 @@ include-in-header:
     angle=0,
     position=current page.south,
     vshift=2.2cm,
-    hshift=0.5cm,
-    contents={\includegraphics[width=1\textwidth]{img/datagotchi_folks.png}}
+    hshift=0cm,
+    contents={\includegraphics[width=1\textwidth]{img/datagotchi_canada.png}}
   }
 
   \begin{center}
     \null\vspace{\stretch{1}} % Ensures vertical centering
     {\titlepagefont\fontsize{48pt}{18pt}\selectfont \textbf{Léger-Datagotchi}}\\[1cm]
     {\titlepagefont\fontsize{32pt}{18pt}\selectfont \textbf{Rapport Canada 2025}}\\[1cm]
-    \includegraphics[width=0.2\textwidth]{img/datagotchi.png}\\[1cm]
-    {\titlepagefont\fontsize{32pt}{16pt}\selectfont \textbf{CLESSN}}\\[0.5cm]
+    \includegraphics[width=0.2\textwidth]{img/leger_small.png}\\[1cm]
+    {\titlepagefont\fontsize{32pt}{16pt}\selectfont \textbf{CLESSN}}\\[1cm]
     {\titlepagefont\fontsize{16pt}{14pt}\selectfont Rapport présenté à:}\\ % Smaller normal text size
-    {\titlepagefont\fontsize{24pt}{16pt}\selectfont \textbf{Léger Marketing}}\\[1cm]
-    {\titlepagefont\fontsize{16pt}{14pt}\selectfont Département de Science Politique\\Faculté des Sciences Sociales\\Université Laval}\\[1cm]
+    {\titlepagefont\fontsize{24pt}{16pt}\selectfont \textbf{Léger Marketing}}\\[1.5cm]
+    {\titlepagefont\fontsize{16pt}{14pt}\selectfont Département de Science Politique\\Faculté des Sciences Sociales\\Université Laval}\\[2.5cm]
     {\titlepagefont\fontsize{16pt}{14pt}\selectfont Québec, Canada}\\[2cm]
     {\titlepagefont\fontsize{12pt}{12pt}\selectfont \copyright \thinspace CLESSN, \today}\\
     \null\vspace{\stretch{2}} % Ensures vertical centering
