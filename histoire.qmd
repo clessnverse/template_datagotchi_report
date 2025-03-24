@@ -23,7 +23,7 @@ include-in-header:
     \newfontfamily\headerfont{PixelOperatorSC.ttf}
     \fancyhead[L]{\headerfont CLESSN}
     \fancyhead[C]{\headerfont Rapport présenté à Léger}
-    \fancyhead[R]{\headerfont Datagotchi USA 2024}
+    \fancyhead[R]{\headerfont Datagotchi Canada 2025}
     \fancyfoot[C]{\vspace*{0.5cm}\thepage}   
 ---
 
@@ -45,7 +45,7 @@ include-in-header:
   \begin{center}
     \null\vspace{\stretch{1}} % Ensures vertical centering
     {\titlepagefont\fontsize{48pt}{18pt}\selectfont \textbf{Datagotchi}}\\[1cm]
-    {\titlepagefont\fontsize{32pt}{18pt}\selectfont \textbf{Rapport USA 2024}}\\[1cm]
+    {\titlepagefont\fontsize{32pt}{18pt}\selectfont \textbf{Rapport Canada 2025}}\\[1cm]
     \includegraphics[width=0.2\textwidth]{img/datagotchi.png}\\[1cm]
     {\titlepagefont\fontsize{32pt}{16pt}\selectfont \textbf{CLESSN}}\\[0.5cm]
     {\titlepagefont\fontsize{16pt}{14pt}\selectfont Rapport présenté à:}\\ % Smaller normal text size
