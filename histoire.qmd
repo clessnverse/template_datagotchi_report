@@ -44,7 +44,7 @@ include-in-header:
 
   \begin{center}
     \null\vspace{\stretch{1}} % Ensures vertical centering
-    {\titlepagefont\fontsize{48pt}{18pt}\selectfont \textbf{Datagotchi}}\\[1cm]
+    {\titlepagefont\fontsize{48pt}{18pt}\selectfont \textbf{Léger-Datagotchi}}\\[1cm]
     {\titlepagefont\fontsize{32pt}{18pt}\selectfont \textbf{Rapport Canada 2025}}\\[1cm]
     \includegraphics[width=0.2\textwidth]{img/datagotchi.png}\\[1cm]
     {\titlepagefont\fontsize{32pt}{16pt}\selectfont \textbf{CLESSN}}\\[0.5cm]
